@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+}
+.navbar{
+  height: 75px;
+  padding-top: 20px;
+  background-color: red;
+}
+.menu{
+  height: 25px;
+  width: 80%;
+  margin-left: 10%;
+
+  background-color: black;
+}
+
+.menu:hover{
+  background-color: white;
+}
+
+.main-content{
+  height: 500px;
+  background-color: blue;
+  width: 60%;
+  margin-left: 20%;
+}
+
+.sub-menu{
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding-left: 0;
+  margin-left: -25px;
+
+}
+
+.menu-background{
+  height: 50px;
+  width: 50px;
+  margin-left: 25px;
+  margin-top: 25px;
+  # border-radius: 50%;
+  background-color: yellow;
+  list-style: none;
+}
+
+.menu-background:hover{
+  background-color: white;
+}
+
+
+.footer{
+  height: 75px;
+  background-color: green;
+
+}
